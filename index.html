@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-021H1Y3XEF"></script>
@@ -9,450 +9,386 @@
   gtag('js', new Date());
   gtag('config', 'G-021H1Y3XEF');
 </script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VERTIKA — Posture Method | Height Growth Program</title>
+<title>تعلّم وأتقن الإنجليزية بسهولة | كورس كامل من الصفر للاحتراف — 12 مستوى</title>
+<meta name="description" content="كورس شامل بصيغة PDF ثنائي اللغة (عربي/إنجليزي)، 12 مستوى متدرج من الأبجدية إلى الأزمنة والمحادثات. تحميل فوري بعد الشراء.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --ink:#0C0C0C;
-    --teal:#0C0C0C;
-    --teal-deep:#0C0C0C;
-    --coral:#97C459;
-    --coral-deep:#7CA83E;
-    --sand:#F5F7F2;
-    --paper:#FFFFFF;
-    --gold:#97C459;
-    --mint:#D7E8C4;
-    --muted:#5c6a5c;
-    --line:#E3E8DC;
-  }
-  *{box-sizing:border-box; margin:0; padding:0;}
-  html{scroll-behavior:smooth;}
-  body{
-    font-family:'Inter', sans-serif;
-    background:var(--sand);
-    color:var(--ink);
-    line-height:1.8;
-    overflow-x:hidden;
-  }
-  h1,h2,h3,.display{font-family:'Poppins', sans-serif; font-weight:800;}
-  img{max-width:100%; display:block;}
-  a{color:inherit;}
-  .wrap{max-width:1080px; margin:0 auto; padding:0 24px;}
-
-  .ruler{
-    height:26px; position:relative; overflow:hidden;
-    background-image:
-      repeating-linear-gradient(90deg, var(--ink) 0 1.5px, transparent 1.5px 20px),
-      repeating-linear-gradient(90deg, transparent 0 9px, var(--ink) 9px 10.5px, transparent 10.5px 20px);
-    background-position:0 0, 0 10px;
-    background-size:100% 14px, 100% 8px;
-    background-repeat:repeat-x;
-    opacity:.9;
-  }
-  .ruler.on-dark{
-    background-image:
-      repeating-linear-gradient(90deg, var(--sand) 0 1.5px, transparent 1.5px 20px),
-      repeating-linear-gradient(90deg, transparent 0 9px, var(--sand) 9px 10.5px, transparent 10.5px 20px);
-    background-position:0 0, 0 10px;
-    background-size:100% 14px, 100% 8px;
-    opacity:.55;
-  }
-
-  .marquee-banner{background:var(--coral); color:#fff; overflow:hidden; white-space:nowrap; position:relative; z-index:51;}
-  .marquee-track{display:inline-flex; white-space:nowrap; animation:marquee-scroll 22s linear infinite;}
-  .marquee-track span{display:inline-flex; align-items:center; gap:10px; font-family:'Poppins', sans-serif; font-weight:700; font-size:14px; padding:8px 28px;}
-  .marquee-track span b{font-weight:900;}
-  @keyframes marquee-scroll{
-    from{transform:translateX(0);}
-    to{transform:translateX(-50%);}
-  }
-  @media (prefers-reduced-motion: reduce){
-    .marquee-track{animation:none;}
-  }
-  .topbar{position:sticky; top:0; z-index:50; background:var(--teal-deep); color:#fff;}
-  .topbar-inner{display:flex; align-items:center; justify-content:space-between; padding:14px 24px; max-width:1080px; margin:0 auto;}
-  .brand{display:flex; align-items:center; gap:10px; font-family:'Poppins'; font-weight:800; font-size:18px;}
-  .brand .dot{width:10px; height:10px; background:var(--coral); border-radius:50%;}
-  .top-cta{background:var(--coral); color:#fff; font-weight:700; padding:9px 20px; border-radius:3px; font-size:14px; text-decoration:none; white-space:nowrap; transition:transform .15s ease;}
-  .top-cta:hover{transform:translateY(-1px);}
-
-  .hero{background:var(--teal-deep); color:#fff; position:relative; overflow:hidden; padding:54px 0 0;}
-  .hero .wrap{display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center;}
-  .eyebrow{display:inline-flex; align-items:center; gap:10px; color:var(--mint); font-size:13px; letter-spacing:.5px; margin-bottom:18px; font-weight:600;}
-  .eyebrow::before{content:''; width:26px; height:3px; background:var(--coral);}
-  .hero h1{font-size:clamp(32px,4.5vw,50px); line-height:1.25; color:#fff; margin-bottom:18px;}
-  .hero h1 em{color:var(--coral); font-style:normal;}
-  .hero p.lead{color:var(--mint); font-size:17px; max-width:520px; margin-bottom:30px;}
-  .hero-ctas{display:flex; align-items:center; gap:18px; flex-wrap:wrap; margin-bottom:36px;}
-  .btn-primary{display:inline-flex; align-items:center; gap:10px; background:var(--coral); color:#fff; font-family:'Poppins'; font-weight:800; font-size:17px; padding:16px 30px; border-radius:3px; text-decoration:none; box-shadow:0 6px 0 var(--coral-deep); transition:transform .12s ease, box-shadow .12s ease;}
-  .btn-primary:hover{transform:translateY(2px); box-shadow:0 4px 0 var(--coral-deep);}
-  .price-tag{font-family:'Poppins'; font-weight:800; font-size:15px; color:var(--mint);}
-
-  .hero-stats{display:flex; gap:28px; flex-wrap:wrap; padding-top:26px; border-top:1px solid rgba(255,255,255,.14);}
-  .stat b{display:block; font-family:'Poppins'; font-weight:800; font-size:24px; color:var(--coral);}
-  .stat span{font-size:13px; color:var(--mint);}
-
-  .hero-art{position:relative; display:flex; justify-content:center;}
-  .hero-cover{width:100%; max-width:340px; border:6px solid var(--teal); box-shadow:0 30px 60px rgba(0,0,0,.4);}
-  .hero-tick-badge{
-    position:absolute; bottom:-16px; right:-14px; background:var(--coral); color:#fff;
-    font-family:'Poppins'; font-weight:800; font-size:14px; padding:12px 18px; border-radius:3px;
-    box-shadow:0 10px 24px rgba(0,0,0,.3);
-  }
-  .hero-tick-badge b{font-size:22px; display:block;}
-
-  section{padding:74px 0;}
-  .section-head{max-width:640px; margin-bottom:44px;}
-  .section-head .kicker{display:flex; align-items:center; gap:10px; color:var(--muted); font-weight:700; font-size:13px; letter-spacing:.4px; margin-bottom:12px;}
-  .section-head .kicker::before{content:''; width:22px; height:3px; background:var(--coral);}
-  .section-head h2{font-size:clamp(24px,3vw,34px); color:var(--teal-deep);}
-  .section-head p{color:var(--muted); margin-top:12px; font-size:16px;}
-
-  .about{background:var(--paper);}
-  .about-grid{display:grid; grid-template-columns:1fr 1fr; gap:44px; align-items:center;}
-  .about-copy p{color:#3a453f; margin-bottom:16px; font-size:16.5px;}
-  .about-copy strong{color:var(--teal-deep);}
-  .badge-row{display:flex; gap:12px; margin-top:26px; flex-wrap:wrap;}
-  .badge{background:#fff; border:1px solid var(--line); border-radius:3px; padding:10px 16px; font-size:13.5px; font-weight:600; color:var(--teal-deep); display:flex; align-items:center; gap:8px;}
-  .badge .sq{width:8px; height:8px; background:var(--coral); border-radius:50%;}
-
-  .growth-card{background:var(--teal-deep); color:#fff; padding:34px; border-radius:3px; position:relative; overflow:hidden;}
-  .growth-card::after{content:''; position:absolute; inset:0; background:linear-gradient(135deg, transparent 60%, rgba(151,196,89,.14));}
-  .growth-card h3{font-size:20px; margin-bottom:18px; position:relative;}
-  .growth-list{list-style:none; position:relative;}
-  .growth-list li{display:flex; align-items:flex-start; gap:12px; padding:12px 0; border-top:1px solid rgba(255,255,255,.12); font-size:15px; color:var(--mint);}
-  .growth-list li:first-child{border-top:none;}
-  .growth-list li b{color:#fff; font-weight:700;}
-  .growth-list .mark{width:20px; height:20px; min-width:20px; background:var(--coral); color:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:12px; margin-top:2px;}
-
-  .range-strip{background:var(--coral); color:#fff; padding:40px 0;}
-  .range-inner{display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:24px;}
-  .range-num{font-family:'Poppins'; font-weight:900; font-size:clamp(38px,6vw,60px); line-height:1;}
-  .range-inner p{font-weight:700; font-size:16px; max-width:420px;}
-
-  .faq-list{border-top:1px solid var(--line);}
-  .faq-item{border-bottom:1px solid var(--line);}
-  .faq-q{width:100%; text-align:left; background:none; border:none; cursor:pointer; display:flex; align-items:center; justify-content:space-between; gap:20px; padding:22px 4px; font-family:'Poppins'; font-weight:700; font-size:16.5px; color:var(--teal-deep);}
-  .faq-q .plus{min-width:26px; height:26px; border:1.5px solid var(--teal-deep); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:16px; flex:none; transition:transform .2s ease, background .2s ease, color .2s ease;}
-  .faq-item.open .faq-q .plus{background:var(--coral); border-color:var(--coral); color:#fff; transform:rotate(45deg);}
-  .faq-a{max-height:0; overflow:hidden; transition:max-height .3s ease;}
-  .faq-a p{padding:0 4px 22px; color:var(--muted); font-size:15.5px; max-width:680px;}
-
-  .elig{background:var(--teal-deep); color:#fff;}
-  .elig .section-head h2{color:#fff;}
-  .elig .section-head p{color:var(--mint);}
-  .elig .section-head .kicker{color:var(--mint);}
-  .elig-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
-  .elig-card{background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.12); padding:22px; border-radius:3px;}
-  .elig-card.no{border-color:rgba(255,120,90,.3);}
-  .elig-icon{font-family:'Poppins'; font-weight:800; font-size:14px; margin-bottom:10px; display:inline-block; padding:3px 10px; border-radius:3px;}
-  .elig-card.yes .elig-icon{background:#3E8E70; color:#fff;}
-  .elig-card.no .elig-icon{background:var(--coral); color:#fff;}
-  .elig-card p{font-size:14.5px; color:var(--mint); line-height:1.7;}
-
-  .guarantee{background:var(--paper);}
-  .g-box{background:#fff; border:1px solid var(--line); border-radius:3px; padding:44px; display:grid; grid-template-columns:auto 1fr; gap:32px; align-items:center;}
-  .g-badge{width:110px; height:110px; border-radius:50%; background:var(--teal-deep); color:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; font-family:'Poppins'; font-weight:800; text-align:center; flex:none; border:3px dashed var(--coral);}
-  .g-badge b{font-size:26px; line-height:1;}
-  .g-badge span{font-size:11px; margin-top:4px;}
-  .g-box h3{font-size:22px; margin-bottom:10px; color:var(--teal-deep);}
-  .g-box p{color:var(--muted); font-size:15.5px;}
-
-  .steps-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
-  .step-card{background:var(--paper); border:1px solid var(--line); padding:26px; border-radius:3px; position:relative;}
-  .step-num{font-family:'Poppins'; font-weight:900; font-size:34px; color:var(--gold); margin-bottom:14px;}
-  .step-card h4{font-size:16.5px; margin-bottom:8px; color:var(--teal-deep); font-family:'Poppins'; font-weight:700;}
-  .step-card p{font-size:14.5px; color:var(--muted);}
-
-
-  .support{background:var(--paper);}
-  .support-box{display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; background:#fff; border:1px solid var(--line); padding:30px 34px; border-radius:3px;}
-  .support-box h3{font-size:18px; color:var(--teal-deep); margin-bottom:6px;}
-  .support-box p{color:var(--muted); font-size:14.5px;}
-  .wa-btn{display:inline-flex; align-items:center; gap:10px; background:#3E8E70; color:#fff; font-weight:700; font-size:15px; padding:13px 24px; border-radius:3px; text-decoration:none; flex:none;}
-  .wa-float{position:fixed; bottom:22px; left:22px; z-index:60; background:#25D366; color:#fff; width:58px; height:58px; border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 6px 18px rgba(0,0,0,.28); text-decoration:none; font-size:28px; transition:transform .15s ease;}
-  .wa-float:hover{transform:scale(1.08);}
-  @media (max-width:520px){ .wa-float{width:52px; height:52px; bottom:16px; left:16px; font-size:24px;} }
-
-  .final-cta{background:var(--coral); text-align:center; padding:70px 0; position:relative; overflow:hidden; color:#fff;}
-  .final-cta h2{font-size:clamp(26px,4vw,38px); margin-bottom:14px;}
-  .final-cta p{color:#EAF6DC; margin-bottom:30px; font-size:16px;}
-  .final-cta .btn-primary{background:var(--teal-deep); box-shadow:0 6px 0 #061713;}
-  .final-cta .btn-primary:hover{box-shadow:0 4px 0 #061713;}
-
-  footer{background:var(--teal-deep); color:var(--mint); padding:30px 0; font-size:13.5px;}
-  .footer-inner{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;}
-
-  @media (max-width:860px){
-    .hero .wrap{grid-template-columns:1fr; text-align:center;}
-    .eyebrow, .hero-ctas{justify-content:center;}
-    .hero p.lead{margin-left:auto; margin-right:auto;}
-    .hero-stats{justify-content:center;}
-    .hero-art{order:-1;}
-    .about-grid{grid-template-columns:1fr;}
-    .elig-grid{grid-template-columns:1fr 1fr;}
-    .steps-grid{grid-template-columns:1fr;}
-    .g-box{grid-template-columns:1fr; text-align:center; justify-items:center;}
-    .support-box{flex-direction:column; text-align:center;}
-  }
-  @media (max-width:520px){
-    .elig-grid{grid-template-columns:1fr;}
-    .top-cta{display:none;}
-  }
-  @media (prefers-reduced-motion: reduce){
-    *{transition:none !important; scroll-behavior:auto !important;}
-  }
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700;800&family=Aref+Ruqaa&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<a class="wa-float" href="https://wa.me/9630982983100" target="_blank" rel="noopener" aria-label="Contact us on WhatsApp">💬</a>
-
-<div class="topbar">
-  <div class="topbar-inner">
-    <div class="brand"><img src="logo.jpg" alt="VERTIKA" style="height:44px;width:auto;border-radius:50%;"></div>
-    <a class="top-cta" href="https://courseon.gumroad.com/l/cueur?wanted=true" target="_blank" rel="noopener">Buy Now — $79.99</a>
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <span class="brand-badge">EN</span>
+      تعلّم وأتقن الإنجليزية
+    </a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">الرئيسية</a>
+      <a href="course.html">محتوى الكورس</a>
+      <a href="free.html">ملخص مجاني</a>
+      <a href="testimonials.html">آراء الطلاب</a>
+      <a href="articles.html">مقالات</a>
+      <a href="about.html">عننا</a>
+      <a href="contact.html">تواصل معنا</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="https://courseon.gumroad.com/l/djyfe?wanted=true" class="btn btn-gold gumroad-button">اشتري الحين</a>
+      <button class="nav-toggle" aria-label="القائمة">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
   </div>
-</div>
+</header>
 
-<div class="marquee-banner">
-  <div class="marquee-track">
-    <span>✓ <b>500+ clients</b> have successfully benefited from the program</span>
-    <span>✓ Full <b>6-month</b> money-back guarantee</span>
-    <span>✓ Dedicated coach with you <b>throughout the program</b></span>
-    <span>✓ Full program duration: <b>90 days</b></span>
-    <span>✓ <b>500+ clients</b> have successfully benefited from the program</span>
-    <span>✓ Full <b>6-month</b> money-back guarantee</span>
-    <span>✓ Dedicated coach with you <b>throughout the program</b></span>
-    <span>✓ Full program duration: <b>90 days</b></span>
-  </div>
-</div>
-
+<!-- ============ HERO ============ -->
 <section class="hero">
-  <div class="wrap">
-    <div class="hero-copy">
-      <div class="eyebrow">A New Posture for a Better Life — VERTIKA</div>
-      <h1>VERTIKA <em>Posture Method</em><br>Your Complete Program for Natural Height Growth</h1>
-      <p class="lead">Designed by a British-Saudi team, combining targeted spinal exercises with simple home nutrition for a balanced, taller physique — for men and women aged 12 to 35. The program runs for 90 days, with a dedicated coach by your side throughout, trusted by 500+ clients who achieved real results.</p>
-      <div class="hero-ctas">
-        <a class="btn-primary" href="https://courseon.gumroad.com/l/cueur?wanted=true" target="_blank" rel="noopener">Start Your Journey Now ↗</a>
-        <div class="price-tag">$79.99 <span style="font-weight:400;color:#c9ded4;">One-time payment</span></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">📘 كورس PDF تفاعلي — تحميل فوري</div>
+      <h1>تعلّم وأتقن الإنجليزية <em>بسهولة</em><br>من الحروف إلى الاحتراف الكامل</h1>
+      <p class="lead">
+        كتاب واحد شامل، منظم في 12 مستوى متدرّج: الأبجدية والنطق، آلاف المفردات
+        مبوّبة بجداول ثنائية اللغة، حروف الجر، الأزمنة الاثنا عشر، المبني للمجهول،
+        الجمل الشرطية، ومحادثات حقيقية — مع تمارين وواجبات بعد كل درس.
+      </p>
+      <div class="hero-badges">
+        <div class="hero-badge"><span class="dot"></span> 12 مستوى متدرّج</div>
+        <div class="hero-badge"><span class="dot"></span> +85 صفحة</div>
+        <div class="hero-badge"><span class="dot"></span> ثنائي اللغة عربي / إنجليزي</div>
+        <div class="hero-badge"><span class="dot"></span> صيغة PDF — تحميل فوري</div>
       </div>
-      <div class="hero-stats">
-        <div class="stat"><b>5–14 cm</b><span>Expected growth, God willing</span></div>
-        <div class="stat"><b>90 Days</b><span>Full program duration</span></div>
-        <div class="stat"><b>6 Months</b><span>Full refund guarantee</span></div>
-        <div class="stat"><b>500+</b><span>Clients helped</span></div>
+      <div class="hero-actions">
+        <a href="https://courseon.gumroad.com/l/djyfe?wanted=true" class="btn btn-gold btn-lg gumroad-button">اشتري الكورس الحين</a>
+        <a href="course.html" class="btn btn-ghost btn-lg">شوف المنهج كامل</a>
       </div>
+      <div class="hero-price-note">دفعة وحدة بس · وصول مدى الحياة للملف · بدون اشتراكات</div>
     </div>
-    <div class="hero-art">
-      <img class="hero-cover" src="cover.jpg" alt="VERTIKA Posture Method cover">
-      <div class="hero-tick-badge">Before / After<b>154 → 162 cm</b></div>
-    </div>
-  </div>
-  <div class="ruler on-dark" style="margin-top:48px;"></div>
-</section>
-
-<section class="about">
-  <div class="wrap">
-    <div class="about-grid">
-      <div class="about-copy">
-        <div class="section-head" style="margin-bottom:20px;">
-          <div class="kicker">About the Program</div>
-          <h2>Not Just Exercises — A Complete Growth System</h2>
-        </div>
-        <p>At <strong>VERTIKA</strong>, we offer the leading program designed to increase your height naturally and effectively, combining targeted exercises and nutrition to maximize your growth potential.</p>
-        <p>Yes, the growth plates in the wrist close after puberty — but the program targets the <strong>spine, upper body, and legs</strong> (neck optional), ensuring a balanced, taller physique.</p>
-        <p>All meals are <strong>home-cooked</strong> and affordable, and the program is delivered straight to your email right after purchase, with dedicated coach support ❤️</p>
-        <div class="badge-row">
-          <div class="badge"><span class="sq"></span> Delivered instantly after purchase</div>
-          <div class="badge"><span class="sq"></span> Dedicated coach support</div>
-          <div class="badge"><span class="sq"></span> Affordable home meals</div>
-        </div>
-      </div>
-      <div class="growth-card">
-        <h3>Why does the program work?</h3>
-        <ul class="growth-list">
-          <li><span class="mark">1</span><span>Targeting the <b>spine</b> to elongate the torso after the wrist growth plates close.</span></li>
-          <li><span class="mark">2</span><span><b>Upper body and leg</b> exercises to build a fully balanced physique.</span></li>
-          <li><span class="mark">3</span><span>Optional <b>neck</b> exercises based on your personal preference.</span></li>
-          <li><span class="mark">4</span><span>Carefully planned home nutrition supporting your growth throughout the program.</span></li>
-        </ul>
-      </div>
+    <div class="book-mock">
+      <img src="images/hi-cover.png" alt="غلاف كتاب تعلّم وأتقن الإنجليزية بسهولة">
+      <div class="sticky-note">من الأبجدية للاحتراف… في 12 مستوى بس! ✎</div>
     </div>
   </div>
 </section>
 
-<div class="range-strip">
-  <div class="wrap range-inner">
-    <div class="range-num">5–14 cm</div>
-    <p>Results vary by body type — the most important thing is full commitment to the program duration to see real, complete results.</p>
+<!-- ============ TRUST STRIP ============ -->
+<div class="container">
+  <div class="trust-strip">
+    <div class="trust-item"><b>12</b> مستوى كامل</div>
+    <div class="trust-item"><b>600+</b> كلمة ومصطلح مبوّب</div>
+    <div class="trust-item"><b>85+</b> صفحة منسّقة</div>
+    <div class="trust-item"><b>PDF</b> يشتغل على أي جهاز</div>
   </div>
 </div>
 
-<section class="faq">
-  <div class="wrap">
+<!-- ============ TESTIMONIALS (IMAGE-BASED, HIGH EMPHASIS) ============ -->
+<section class="testi-band">
+  <div class="container">
     <div class="section-head">
-      <div class="kicker">FAQ</div>
-      <h2>Every Question On Your Mind</h2>
+      <div class="eyebrow">📸 لقطات حقيقية، بدون فلترة</div>
+      <h2>هذا وش يقولونه طلابنا فعليًا</h2>
+      <p class="lead">ما نكتب كلمة واحدة نيابة عنهم — كل لقطة تحت دي رسالة واتساب أو تعليق فيسبوك حقيقي 100%، بالضغط عليها تكبر.</p>
     </div>
-    <div class="faq-list" id="faqList">
 
-      <div class="faq-item open">
-        <button class="faq-q"><span>How can I grow taller after puberty? Isn't that a myth?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p>It's true that height stops and the wrist growth plates close, but the program targets the spine — so height gain comes from the upper body, legs, and neck (optional), with a full guarantee that your body shape will be balanced and taller.</p></div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q"><span>Is my height increase guaranteed?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p>God willing, yes — if you follow the program correctly and commit to it fully.</p></div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q"><span>Is the required food expensive?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p>No, it's all simple, affordable home-cooked food.</p></div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q"><span>Is the program suitable for pregnant women?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p>No, it's best to take the current offer now and start right after giving birth.</p></div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q"><span>How many centimeters will I grow and when will I see results?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p>From 5 cm minimum up to 10–14 cm, God willing — results vary by body. Most importantly, commit to the full program duration to see complete results.</p></div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q"><span>Is the program suitable for everyone?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p>Yes, God willing, for both men and women — regardless of whether height is genetic, the program works for everyone who commits.</p></div>
-      </div>
-
-      <div class="faq-item">
-        <button class="faq-q"><span>Will my body shape stay balanced after gaining height?</span><span class="plus">+</span></button>
-        <div class="faq-a"><p>Yes, completely balanced — no client has ever complained about imbalance after gaining height, Alhamdulillah.</p></div>
-      </div>
-
+    <div class="testi-hero-stats">
+      <div class="stat"><b>15</b><span>لقطة شاشة حقيقية</span></div>
+      <div class="stat"><b>واتساب</b><span>وفيسبوك — بدون تعديل</span></div>
+      <div class="stat"><b>من الصفر</b><span>لمستوى متقدم — بكلامهم</span></div>
     </div>
-  </div>
-</section>
 
-<section class="elig">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="kicker">Program Requirements</div>
-      <h2>Very Simple Requirements to Join</h2>
+    <div class="testi-img-grid">
+      <a href="#hlb-1" class="testi-img-card">
+        <img src="images/testimonials/testi-01.png" alt="تجربة حقيقية لأحد الطلاب" loading="lazy">
+      </a>
+      <a href="#hlb-2" class="testi-img-card">
+        <img src="images/testimonials/testi-02.png" alt="تجربة حقيقية لأحد الطلاب" loading="lazy">
+      </a>
+      <a href="#hlb-3" class="testi-img-card">
+        <img src="images/testimonials/testi-03.png" alt="تجربة حقيقية لأحد الطلاب" loading="lazy">
+      </a>
+      <a href="#hlb-4" class="testi-img-card">
+        <img src="images/testimonials/testi-04.png" alt="تجربة حقيقية لأحد الطلاب" loading="lazy">
+      </a>
+      <a href="#hlb-5" class="testi-img-card">
+        <img src="images/testimonials/testi-05.png" alt="تجربة حقيقية لأحد الطلاب" loading="lazy">
+      </a>
+      <a href="#hlb-6" class="testi-img-card">
+        <img src="images/testimonials/testi-06.png" alt="تجربة حقيقية لأحد الطلاب" loading="lazy">
+      </a>
+      <a href="#hlb-7" class="testi-img-card">
+        <img src="images/testimonials/testi-07.png" alt="تجربة حقيقية لأحد الطلاب" loading="lazy">
+      </a>
+      <a href="#hlb-8" class="testi-img-card">
+        <img src="images/testimonials/testi-08.png" alt="تجربة حقيقية لأحد الطلاب" loading="lazy">
+      </a>
     </div>
-    <div class="elig-grid">
-      <div class="elig-card yes"><span class="elig-icon">✓ Eligible</span><p>Body weight under 100 kg.</p></div>
-      <div class="elig-card yes"><span class="elig-icon">✓ Eligible</span><p>No current fractures or conditions preventing exercise (old fractures don't matter).</p></div>
-      <div class="elig-card yes"><span class="elig-icon">✓ Eligible</span><p>Age 12 to 35, for men and women.</p></div>
-      <div class="elig-card yes"><span class="elig-icon">✓ Eligible</span><p>Doesn't matter if height is genetic or not — the program works for everyone committed.</p></div>
-      <div class="elig-card yes"><span class="elig-icon">✓ Eligible</span><p>General health conditions don't prevent joining, as long as you can exercise without excessive fatigue.</p></div>
-      <div class="elig-card no"><span class="elig-icon">✗ Not Eligible</span><p>Cases of short stature (130 cm and under) are not covered by the program.</p></div>
+    <p class="lightbox-hint">💡 اضغط على أي صورة لتكبيرها</p>
+
+    <div class="testi-cta-row">
+      <a href="testimonials.html" class="btn btn-outline" style="background:#fff;">شاهد كل الـ 15 تجربة ←</a>
     </div>
   </div>
 </section>
 
-<section class="guarantee">
-  <div class="wrap">
-    <div class="g-box">
-      <div class="g-badge"><b>6</b><span>Months Guarantee</span></div>
-      <div>
-        <h3>Full Success Guarantee</h3>
-        <p>We offer a 6-month guarantee on the program from your purchase date. If you don't see any results despite full commitment, you'll get a complete refund — we truly believe in the results and guarantee a risk-free experience. Terms and conditions apply.</p>
-        <p>Throughout the 90-day program, a dedicated coach follows your progress and answers your questions promptly — the same approach that's helped 500+ clients achieve their results with confidence.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="steps">
-  <div class="wrap">
-    <div class="section-head">
-      <div class="kicker">Getting Started</div>
-      <h2>Start Your Journey in 3 Steps</h2>
-    </div>
-    <div class="steps-grid">
-      <div class="step-card">
-        <div class="step-num">01</div>
-        <h4>Complete Your Purchase</h4>
-        <p>After purchasing the program, the file will be sent directly to the email you used at checkout.</p>
-      </div>
-      <div class="step-card">
-        <div class="step-num">02</div>
-        <h4>Download the File</h4>
-        <p>Download the attached file and carefully follow the steps inside from the start.</p>
-      </div>
-      <div class="step-card">
-        <div class="step-num">03</div>
-        <h4>Commit to the 90-Day Program</h4>
-        <p>With dedicated support from your personal coach throughout the entire program, until you achieve results.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-<section class="support">
-  <div class="wrap">
-    <div class="support-box">
-      <div>
-        <h3>Need help or have a question?</h3>
-        <p>Our support team is ready to respond directly on WhatsApp.</p>
-      </div>
-      <a class="wa-btn" href="https://wa.me/9630982983100" target="_blank" rel="noopener">💬 Contact us on WhatsApp</a>
-    </div>
-  </div>
-</section>
-
-<div class="final-cta">
-  <div class="wrap">
-    <h2>A New Posture Starts Today</h2>
-    <p>$79.99 only — one-time payment, instant access, and a 6-month refund guarantee.</p>
-    <a class="btn-primary" href="https://courseon.gumroad.com/l/cueur?wanted=true" target="_blank" rel="noopener">Buy the VERTIKA Program Now ↗</a>
-  </div>
+<div class="lightbox-overlay" id="hlb-1">
+  <a href="#" class="lightbox-close">✕</a>
+  <img src="images/testimonials/testi-01.png" alt="تجربة حقيقية لأحد الطلاب">
+</div>
+<div class="lightbox-overlay" id="hlb-2">
+  <a href="#" class="lightbox-close">✕</a>
+  <img src="images/testimonials/testi-02.png" alt="تجربة حقيقية لأحد الطلاب">
+</div>
+<div class="lightbox-overlay" id="hlb-3">
+  <a href="#" class="lightbox-close">✕</a>
+  <img src="images/testimonials/testi-03.png" alt="تجربة حقيقية لأحد الطلاب">
+</div>
+<div class="lightbox-overlay" id="hlb-4">
+  <a href="#" class="lightbox-close">✕</a>
+  <img src="images/testimonials/testi-04.png" alt="تجربة حقيقية لأحد الطلاب">
+</div>
+<div class="lightbox-overlay" id="hlb-5">
+  <a href="#" class="lightbox-close">✕</a>
+  <img src="images/testimonials/testi-05.png" alt="تجربة حقيقية لأحد الطلاب">
+</div>
+<div class="lightbox-overlay" id="hlb-6">
+  <a href="#" class="lightbox-close">✕</a>
+  <img src="images/testimonials/testi-06.png" alt="تجربة حقيقية لأحد الطلاب">
+</div>
+<div class="lightbox-overlay" id="hlb-7">
+  <a href="#" class="lightbox-close">✕</a>
+  <img src="images/testimonials/testi-07.png" alt="تجربة حقيقية لأحد الطلاب">
+</div>
+<div class="lightbox-overlay" id="hlb-8">
+  <a href="#" class="lightbox-close">✕</a>
+  <img src="images/testimonials/testi-08.png" alt="تجربة حقيقية لأحد الطلاب">
 </div>
 
-<footer>
-  <div class="ruler on-dark" style="margin-bottom:24px;"></div>
-  <div class="wrap footer-inner">
-    <div class="footer-brand"><img src="logo.jpg" alt="VERTIKA" style="height:38px;width:auto;border-radius:50%;"></div>
-    <div>© 2026 VERTIKA. All rights reserved.</div>
-    <div>WhatsApp Support: +963 982983100</div>
+<!-- ============ FEATURES ============ -->
+<section id="features">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">ليه هالكورس بالذات؟</div>
+      <h2>مو مجرد كتاب قواعد… هذا نظام تعلّم كامل</h2>
+      <p class="lead">كل قاعدة، كل تعبير، وكل كلمة — مرتبين في جداول واضحة، مع أمثلة وواجبات بعد كل جزء.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card feature-card">
+        <div class="feature-icon">🔤</div>
+        <h3>من الصفر للاحتراف</h3>
+        <p>يبدأ من الحروف الأبجدية ونطقها، ويتدرّج خطوة بخطوة لين يوصل للأزمنة المتقدمة والكلام المنقول.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">🗂️</div>
+        <h3>12 مستوى متدرّج</h3>
+        <p>كل مستوى مستقل بموضوعه، فتقدر تدرس بالترتيب أو تركّز على الموضوع اللي تحتاجه بس.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">🌐</div>
+        <h3>ثنائي اللغة بالكامل</h3>
+        <p>كل كلمة وكل قاعدة موجودة بالعربي والإنجليزي جنب بعض، فما فيه أي لخبطة في المعنى.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">📝</div>
+        <h3>تمارين بعد كل درس</h3>
+        <p>واجبات وأسئلة تطبيقية بعد كل قاعدة، عشان المعلومة تثبت وما تروح بسرعة.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">💬</div>
+        <h3>محادثات واقعية</h3>
+        <p>حوارات حقيقية للاستخدام اليومي: التعارف، الاستئذان، السفر، البنك، والمقابلات.</p>
+      </div>
+      <div class="card feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>تحميل فوري</h3>
+        <p>ملف PDF واحد منسّق باحترافية، يوصلك فورًا بعد الدفع، وتقدر تفتحه من أي جهاز.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PREVIEW GALLERY ============ -->
+<section class="bg-alt">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">نظرة من جوّه</div>
+      <h2>شكل الصفحات فعليًا</h2>
+      <p class="lead">ما فيه نصوص مزدحمة — كل شي في جداول وصناديق واضحة سهلة المذاكرة.</p>
+    </div>
+    <div class="gallery">
+      <figure>
+        <img src="images/hi-alphabet.png" alt="صفحة الحروف الأبجدية">
+        <figcaption>المستوى 1 — الأبجدية والنطق</figcaption>
+      </figure>
+      <figure>
+        <img src="images/hi-synonyms.png" alt="صفحة المترادفات">
+        <figcaption>المستوى 2 — كلمات متشابهة ومترادفات</figcaption>
+      </figure>
+      <figure>
+        <img src="images/hi-gerund.png" alt="صفحة الـ Gerund">
+        <figcaption>المستوى 7 — Gerund والفرق مع Infinitive</figcaption>
+      </figure>
+      <figure>
+        <img src="images/hi-passive.png" alt="صفحة المبني للمجهول">
+        <figcaption>المستوى 10 — المبني للمعلوم والمجهول</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CURRICULUM TEASER ============ -->
+<section>
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">المنهج</div>
+      <h2>رحلتك عبر 12 مستوى</h2>
+      <p class="lead">من أول حرف تكتبه، لين توصل تفهم وتتكلم بثقة.</p>
+    </div>
+    <div class="grid-3" style="grid-template-columns:repeat(4,1fr);">
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">01</b><h3 style="font-size:1rem; margin-top:6px;">الأساسيات</h3><p style="color:var(--ink-soft); font-size:.88rem;">الأبجدية، النطق، الأوقات والأعداد</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">02</b><h3 style="font-size:1rem; margin-top:6px;">مفردات الحياة</h3><p style="color:var(--ink-soft); font-size:.88rem;">الجسم، السفر، الوظائف، البنوك</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">03</b><h3 style="font-size:1rem; margin-top:6px;">حروف الجر</h3><p style="color:var(--ink-soft); font-size:.88rem;">اصطلاحات ثابتة والفعل Do</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">04</b><h3 style="font-size:1rem; margin-top:6px;">تعبيرات واستخدام</h3><p style="color:var(--ink-soft); font-size:.88rem;">A/An/The، أفعال Be و Have</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">05</b><h3 style="font-size:1rem; margin-top:6px;">المكان والأفعال</h3><p style="color:var(--ink-soft); font-size:.88rem;">Phrasal verbs كثيرة الاستخدام</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">06</b><h3 style="font-size:1rem; margin-top:6px;">الأسئلة والوقف</h3><p style="color:var(--ink-soft); font-size:.88rem;">Punctuation والضمائر</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">07</b><h3 style="font-size:1rem; margin-top:6px;">Gerund والصفات</h3><p style="color:var(--ink-soft); font-size:.88rem;">الظروف والصفات ومحادثات</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">08</b><h3 style="font-size:1rem; margin-top:6px;">المقارنة والأزمنة</h3><p style="color:var(--ink-soft); font-size:.88rem;">مقدمة الأزمنة الاثني عشر</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">09</b><h3 style="font-size:1rem; margin-top:6px;">نظام الأزمنة</h3><p style="color:var(--ink-soft); font-size:.88rem;">تصريف كل الأفعال الشاذة</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">10</b><h3 style="font-size:1rem; margin-top:6px;">المبني للمجهول</h3><p style="color:var(--ink-soft); font-size:.88rem;">Active &amp; Passive في كل الأزمنة</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">11</b><h3 style="font-size:1rem; margin-top:6px;">الشرط والتمني</h3><p style="color:var(--ink-soft); font-size:.88rem;">If، Wishes، كتابة الخطابات</p></div>
+      <div class="card"><b style="color:var(--teal); font-family:'Amiri',serif;">12</b><h3 style="font-size:1rem; margin-top:6px;">المراجعة الشاملة</h3><p style="color:var(--ink-soft); font-size:.88rem;">الكلام المنقول ومحادثات ختامية</p></div>
+    </div>
+    <div class="center mt-40">
+      <a href="course.html" class="btn btn-outline">شوف تفاصيل كل مستوى ←</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section id="pricing" class="bg-alt">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">السعر</div>
+      <h2>استثمار بسيط في لغة بتغيّر فرصك</h2>
+    </div>
+    <div class="pricing-card">
+      <div class="eyebrow">الكورس الكامل</div>
+      <h3 style="margin-bottom:4px;">تعلّم وأتقن الإنجليزية بسهولة</h3>
+      <p class="lead" style="font-size:.92rem;">12 مستوى · ملف PDF واحد · تحميل فوري</p>
+      <div class="price-tag">
+        <span class="amount">149.99</span>
+        <span class="currency">ريال سعودي</span>
+      </div>
+      <div class="price-usd">💳 يتم الدفع الفعلي بالدولار الأمريكي (39.99 $) عبر Gumroad</div>
+      <ul class="pricing-list">
+        <li>وصول فوري للملف كامل (85+ صفحة)</li>
+        <li>12 مستوى من الصفر لين الاحتراف</li>
+        <li>جداول مفردات ثنائية اللغة جاهزة للمذاكرة</li>
+        <li>تمارين وواجبات بعد كل درس</li>
+        <li>يشتغل على الجوال والكمبيوتر والتابلت</li>
+        <li>دفعة وحدة بس — بدون أي اشتراك شهري</li>
+      </ul>
+      <a href="https://courseon.gumroad.com/l/djyfe?wanted=true" class="gumroad-button btn btn-gold btn-block btn-lg">
+        اشتري الكورس الحين — 149.99 ريال
+      </a>
+      <p style="font-size:.8rem; color:var(--ink-soft); margin-top:14px;">دفع آمن بالدولار الأمريكي عبر Gumroad · يدعم البطاقات وPayPal</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section>
+  <div class="container" style="max-width:760px;">
+    <div class="section-head">
+      <div class="eyebrow">أسئلة متكررة</div>
+      <h2>تبي تعرف شي زيادة؟</h2>
+    </div>
+
+    <div class="faq-item open">
+      <div class="faq-q"><span>الكورس مناسب للمبتدئين تمامًا؟</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>إي والله، الكورس يبدأ من الحروف الأبجدية ونطقها من الصفر، فهو مناسب لأي مستوى — من مبتدئ تمامًا لين اللي عنده مستوى متوسط ويبي يرتب معلوماته ويكمل للمستويات المتقدمة.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>الكورس بيوصلني كيف بعد الدفع؟</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>بتستلم رابط تحميل مباشر لملف PDF فور ما تخلّص الدفع عبر Gumroad، وبرضو بيوصلك نفس الرابط على إيميلك عشان ترجع له أي وقت تبي.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>يصير أطبع الكورس ورقي؟</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>أكيد، الملف مصمم بشكل يشبه الكتاب المطبوع فعليًا، فتقدر تطبعه أو تذاكر منه مباشرة على أي شاشة.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>فيه فيديوهات شرح مع الكورس؟</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>الكورس الحالي عبارة عن كتاب PDF تفاعلي شامل بالكامل نص وجداول وتمارين. لو زدنا فيديوهات بالمستقبل بتلقى إعلان عنها في صفحة المقالات.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>السعر هذا لمرة وحدة؟</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>إي، دفعة وحدة بس مقابل وصول دائم للملف — ما فيه أي اشتراك شهري أو رسوم زيادة.</p></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q"><span>ليه أشوف السعر بالريال بس أدفع بالدولار؟</span><span class="plus">+</span></div>
+      <div class="faq-a"><p>عرضنا السعر بالريال السعودي (149.99 ريال) عشان يكون واضح لك بعملتك المحلية، لكن منصة الدفع
+      (Gumroad) تعالج كل عمليات الدفع بالدولار الأمريكي فقط (39.99 $). يعني اللي بيظهر فعليًا على
+      كشف بطاقتك هو المبلغ بالدولار — وهذا طبيعي ومعتاد مع أغلب منصات البيع الرقمي العالمية.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="hero" style="padding:60px 0;">
+  <div class="container center" style="position:relative; z-index:2;">
+    <h2 style="color:#fff;">جاهز تبدأ رحلتك مع الإنجليزية؟</h2>
+    <p class="lead" style="margin:0 auto 24px; color:#d7e6ee;">12 مستوى، مفردات وقواعد ومحادثات — كل هذا في ملف واحد يوصلك فورًا.</p>
+    <a href="https://courseon.gumroad.com/l/djyfe?wanted=true" class="btn btn-gold btn-lg gumroad-button">اشتري الكورس الحين — 149.99 ريال</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="color:#fff; margin-bottom:12px;">
+          <span class="brand-badge">EN</span>
+          تعلّم وأتقن الإنجليزية
+        </div>
+        <p style="color:#b7ccd7; font-size:.9rem; max-width:320px;">
+          كورس PDF ثنائي اللغة، 12 مستوى متدرّج من الأبجدية إلى الاحتراف، مبني على أسلوب
+          تعليمي مبسّط وشامل لكل الأعمار والمستويات.
+        </p>
+      </div>
+      <div>
+        <h4>روابط</h4>
+        <div class="footer-links">
+          <a href="course.html">محتوى الكورس</a>
+          <a href="articles.html">مقالات</a>
+          <a href="about.html">عننا</a>
+          <a href="contact.html">تواصل معنا</a>
+        </div>
+      </div>
+      <div>
+        <h4>تواصل</h4>
+        <div class="footer-links">
+          <a href="https://wa.me/on.course" target="_blank" rel="noopener">واتساب: on.course@</a>
+          <a href="contact.html">صفحة التواصل</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 تعلّم وأتقن الإنجليزية بسهولة. جميع الحقوق محفوظة.</span>
+      <span>صُنع بعناية لكل من يبي يتقن الإنجليزية</span>
+    </div>
   </div>
 </footer>
 
-<script>
-  document.querySelectorAll('.faq-q').forEach(btn=>{
-    btn.addEventListener('click', ()=>{
-      const item = btn.closest('.faq-item');
-      const answer = item.querySelector('.faq-a');
-      const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item.open').forEach(o=>{
-        if(o!==item){ o.classList.remove('open'); o.querySelector('.faq-a').style.maxHeight=null; }
-      });
-      if(isOpen){
-        item.classList.remove('open');
-        answer.style.maxHeight = null;
-      } else {
-        item.classList.add('open');
-        answer.style.maxHeight = answer.scrollHeight + 'px';
-      }
-    });
-  });
-  window.addEventListener('load', ()=>{
-    const openItem = document.querySelector('.faq-item.open .faq-a');
-    if(openItem) openItem.style.maxHeight = openItem.scrollHeight + 'px';
-  });
-</script>
+<div class="sticky-cta">
+  <div class="info"><b>149.99 ريال</b> الكورس كامل — 12 مستوى</div>
+  <a href="https://courseon.gumroad.com/l/djyfe?wanted=true" class="btn btn-gold gumroad-button">اشتري الحين</a>
+</div>
 
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
